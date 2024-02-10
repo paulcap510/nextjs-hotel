@@ -1,6 +1,5 @@
 .background {
   background-image: url('public/lobby.png');
-
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -17,7 +16,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Opaque layer */
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .card {
@@ -27,7 +26,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
-  z-index: 1; /* Ensure card is above the opaque layer */
+  z-index: 1;
 }
 
 .inputGroup {

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "room_type": "Deluxe Room",
+    "description": "A spacious room with an ocean view, featuring a king-sized bed, ensuite bathroom, and a private balcony.",
+    "image": "/hotel1.jpeg",
+    "price": 250
+  },
+  {
+    "id": 2,
+    "room_type": "Standard Room",
+    "description": "Comfortable and cozy, this room offers a queen-sized bed and modern amenities, perfect for budget travelers.",
+    "image": "/hotel2.jpeg",
+    "price": 150
+  },
+  {
+    "id": 3,
+    "room_type": "Suite",
+    "description": "Our suite provides luxurious accommodation with a separate living area, king-sized bed, and panoramic views of the surroundings.",
+    "image": "/hotel3.jpg",
+    "price": 350
+  },
+  {
+    "id": 4,
+    "room_type": "Family Room",
+    "description": "Ideal for families, this spacious room includes two queen-sized beds, a sitting area, and all the necessary amenities for a comfortable stay.",
+    "image": "/hotel4.jpg",
+    "price": 200
+  }
+]

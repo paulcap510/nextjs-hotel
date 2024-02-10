@@ -1,0 +1,19 @@
+.policiesContainer {
+  padding: 20px;
+  color: black;
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

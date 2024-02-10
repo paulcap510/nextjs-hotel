@@ -1,0 +1,55 @@
+.eventsContainer {
+  padding: 20px;
+}
+
+.eventsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.eventCard {
+  width: calc(33.333% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.eventImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.eventTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.eventDescription {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.moreInfoButton {
+  padding: 10px 20px;
+  background-color: var(--darkGold);
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.moreInfoButton:hover {
+  background-color: var(--lightGold);
+}

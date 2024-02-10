@@ -4,7 +4,7 @@
   align-items: center;
   background-color: var(--black);
   padding: 40px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .navList {
@@ -33,7 +33,6 @@
   color: var(--darkGold);
 }
 
-/* Underline effect */
 .navItem::before {
   content: '';
   position: absolute;
@@ -55,4 +54,14 @@
 .hotelName {
   font-weight: bold;
   color: var(--lightGold);
+}
+
+.navItem a {
+  color: var(--lightGold);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navItem a:hover {
+  color: var(--darkGold);
 }

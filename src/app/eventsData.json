@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Live Music Night",
+    "description": "Enjoy an evening of live music featuring local bands.",
+    "image": "/event1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Wine Tasting Event",
+    "description": "Sample a variety of wines from different regions.",
+    "image": "/event2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Weddings",
+    "description": "Intimate weddings on our elegant property grounds.",
+    "image": "/event3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Cooking Workshop",
+    "description": "Learn to cook gourmet meals with our expert chefs.",
+    "image": "/event4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Yoga Retreat",
+    "description": "A weekend of yoga and meditation to rejuvenate your soul.",
+    "image": "/event5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Literary Festival",
+    "description": "Meet your favorite authors and discover new books.",
+    "image": "/event6.jpg"
+  }
+]

@@ -1,4 +1,5 @@
 import styles from './navbar.module.css';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -6,29 +7,29 @@ const Navbar = () => {
       <div className={styles.hotelName}>Fancy Hotel</div>
       <ul className={styles.navList}>
         <li className={styles.navItem}>
-          <a href="#" className={styles.navLink}>
-            Home
-          </a>
+          <Link href="/">Home</Link>
         </li>
         <li className={styles.navItem}>
-          <a href="#" className={styles.navLink}>
-            Rooms
-          </a>
+          <Link href="/rooms">Rooms</Link>
         </li>
         <li className={styles.navItem}>
-          <a href="#" className={styles.navLink}>
-            Policies
-          </a>
+          <Link href="/policies">Policies</Link>
         </li>
         <li className={styles.navItem}>
-          <a href="#" className={styles.navLink}>
-            Amenities
-          </a>
+          <Link href="/eventsPage" className={styles.navLink}>
+            Events
+          </Link>
         </li>
+
         <li className={styles.navItem}>
-          <a href="#" className={styles.navLink}>
+          <Link href="/" className={styles.navLink}>
             My Booking
-          </a>
+          </Link>
+        </li>
+        <li className={styles.navItem}>
+          <Link href="/contact" className={styles.navLink}>
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>
